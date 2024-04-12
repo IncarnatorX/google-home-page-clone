@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header part */
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+}
+
+header ul li {
+  margin-left: 1.5rem;
+}
+
+.underline:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#menu-icon {
+  height: 1rem;
+}
+
+#user-icon {
+  height: 1.7rem;
+}
+
+/* Below is the main section that encapsulates the logo and search items */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.google-logo img {
+  width: 18rem;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.2rem;
+  border: 1px solid lightgrey;
+  border-radius: 30px;
+  margin-top: 1.5rem;
+}
+
+.search:hover {
+  box-shadow: 1px 2px 5px 0.1px rgba(181, 172, 181, 1);
+}
+
+.search img {
+  width: 1.4rem;
+  margin: 0.6rem;
+}
+
+.search input {
+  width: 30rem;
+  height: 2.2rem;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+/* Button part */
+
+.btn {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.btn button {
+  padding: 0.7rem;
+  margin-right: 1rem;
+  background-color: #f8f9fa;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.btn button:hover {
+  cursor: pointer;
+  border: 1px solid #dadce0;
+  border-radius: 3px;
+}
+
+main p {
+  font-size: small;
+  padding: 1.5rem;
+}
+
+main p span {
+  color: blue;
+}
+
+/* footer part */
+
+footer {
+  background-color: #f2f2f2;
+  margin-top: auto;
+}
+
+footer div p {
+  padding: 1rem 1.5rem;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div ul {
+  list-style: none;
+  display: flex;
+  padding: 1rem;
+}
+
+footer div ul li {
+  padding: 0 0.5rem;
+}
